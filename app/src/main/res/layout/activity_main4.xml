@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+
+    >
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="@color/purple_500"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grad1"
+            android:layout_gravity="center"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+
+                android:text="Reminder"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+
+                />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="273dp"
+        android:layout_height="60dp"
+
+
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.056">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grad1"
+            android:gravity="center"
+
+            >
+
+            <TextView
+                android:id="@+id/label3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="catflam"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/clock1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="21dp"
+
+
+                android:layout_toRightOf="@+id/label3"
+                android:text="8:45"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Switch
+                style="@style/TextAppearance.AppCompat.Widget.Switch"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:thumbTint="@color/black"
+                android:trackTint="@color/white" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView7"
+        android:layout_width="273dp"
+        android:layout_height="60dp"
+
+
+        android:layout_marginTop="108dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grad1"
+            android:gravity="center"
+
+            >
+
+
+            <TextView
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="catflam"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="21dp"
+
+
+                android:layout_toRightOf="@+id/label"
+                android:text="8:45"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Switch
+                style="@style/TextAppearance.AppCompat.Widget.Switch"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:thumbTint="@color/black"
+                android:trackTint="@color/white"
+
+                />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView6"
+        android:layout_width="273dp"
+        android:layout_height="60dp"
+
+
+        android:layout_marginTop="108dp"
+        app:cardBackgroundColor="@color/purple_500"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/grad1"
+            android:gravity="center"
+
+            >
+
+
+            <TextView
+                android:id="@+id/label1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="catflam"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/clock3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="21dp"
+
+
+                android:layout_toRightOf="@+id/label1"
+                android:text="8:45"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <Switch
+                style="@style/TextAppearance.AppCompat.Widget.Switch"
+                android:layout_width="66dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:thumbTint="@color/black"
+                android:trackTint="@color/white"
+
+                />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:clickable="true"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_add"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
